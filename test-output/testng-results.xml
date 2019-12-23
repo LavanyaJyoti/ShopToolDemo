@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40792" started-at="2019-12-23T06:37:36Z" finished-at="2019-12-23T06:38:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40792" started-at="2019-12-23T06:37:36Z" finished-at="2019-12-23T06:38:16Z">
+      <class name="com.toolsqa.scripts.LoginTest">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:com.toolsqa.scripts.LoginTest@2db7a79b]" name="initFrameWork" is-config="true" duration-ms="179" started-at="2019-12-23T06:37:35Z" finished-at="2019-12-23T06:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFrameWork -->
+        <test-method status="PASS" signature="initGlobalVar()[pri:0, instance:com.toolsqa.scripts.LoginTest@2db7a79b]" name="initGlobalVar" is-config="true" duration-ms="0" started-at="2019-12-23T06:37:36Z" finished-at="2019-12-23T06:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initGlobalVar -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.toolsqa.scripts.LoginTest@2db7a79b]" name="initApplication" is-config="true" duration-ms="6374" started-at="2019-12-23T06:37:36Z" finished-at="2019-12-23T06:37:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.toolsqa.scripts.LoginTest@2db7a79b]" name="preCondition" is-config="true" duration-ms="2150" started-at="2019-12-23T06:37:42Z" finished-at="2019-12-23T06:37:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.toolsqa.scripts.LoginTest.Login() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.toolsqa.scripts.LoginTest@2db7a79b]" name="Login" duration-ms="31116" started-at="2019-12-23T06:37:44Z" finished-at="2019-12-23T06:38:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.toolsqa.scripts.LoginTest@2db7a79b]" name="postCondition" is-config="true" duration-ms="5" started-at="2019-12-23T06:38:15Z" finished-at="2019-12-23T06:38:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginTest.Login()[pri:0, instance:com.toolsqa.scripts.LoginTest@2db7a79b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.toolsqa.scripts.LoginTest@2db7a79b]" name="closeApplication" is-config="true" duration-ms="1126" started-at="2019-12-23T06:38:15Z" finished-at="2019-12-23T06:38:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="publishReport()[pri:0, instance:com.toolsqa.scripts.LoginTest@2db7a79b]" name="publishReport" is-config="true" duration-ms="227" started-at="2019-12-23T06:38:16Z" finished-at="2019-12-23T06:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- com.toolsqa.scripts.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
